@@ -95,9 +95,15 @@ angular.module('app.routes', [])
   })
 
   .state('running', {
-    url: '/page17',
+    url: '/page18',
     templateUrl: 'templates/running.html',
     controller: 'runningCtrl'
+  })
+
+  .state('cronometro', {
+    url: '/page19',
+    templateUrl: 'templates/cronometro.html',
+    controller: 'timerCtrl'
   })
 
 $urlRouterProvider.otherwise('/page7')
