@@ -40,11 +40,15 @@ angular.module('app.controllers', [])
 
 })
 
-.controller('addAmigo', function($scope) {
+.controller('addAmigoCtrl', function($scope) {
 
 })
 
-.controller('selectAmigos', function($scope) {
+.controller('selectAmigosCtrl', function($scope) {
+
+})
+
+.controller('runningCtrl', function($scope) {
 
 })
  

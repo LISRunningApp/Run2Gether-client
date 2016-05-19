@@ -1,29 +1,29 @@
-<ion-view title="selectAmigos" id="page14">
-    
+<ion-view title="selectAmigos" id="page16">
     <ion-content padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" placeholder="">
+            </label>
+        </form>
 
-        <label class="item item-input">
-            <span class="input-label">Group Name</span>
-            <input type="text" placeholder="">
-        </label>
+        <ion-list>
+
+          <ion-checkbox checkbox-balanced>Amigo 1</ion-checkbox>
+          <ion-checkbox checkbox-balanced>Amigo 2</ion-checkbox>
+          <ion-checkbox checkbox-balanced>Amigo 3</ion-checkbox>
+          <ion-checkbox checkbox-balanced>Amigo 4</ion-checkbox>
+          <ion-checkbox checkbox-balanced>Amigo 5</ion-checkbox>
+          
+        </ion-list>
+
         
-        <label class="item item-input">
-            <span class="input-label">Date</span>
-            <input type="date">
-        </label>  
-
-
-
-
-        <label class="item item-input">
-            <span class="input-label">Message</span>
-            <input type="text" placeholder="">
-        </label>
-
     </ion-content>
-   
-    <div class="bar bar-footer bar-balanced col text-right">
-        <button ui-sref="selectAmigos" class="button button-clear icon add-button">Siguiente</button>
+
+    <div class="bar bar-footer bar-stable col text-right">
+        <button ui-sref="grupos" class="button icon-right ion-checkmark"></button>
     </div>
+    
+   
 
 </ion-view>

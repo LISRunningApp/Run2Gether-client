@@ -88,6 +88,18 @@ angular.module('app.routes', [])
     controller: 'selectAmigosCtrl'
   })
 
+  .state('searchAmigo', {
+    url: '/page16',
+    templateUrl: 'templates/selectAmigos.html',
+    controller: 'selectAmigosCtrl'
+  })
+
+  .state('running', {
+    url: '/page17',
+    templateUrl: 'templates/running.html',
+    controller: 'runningCtrl'
+  })
+
 $urlRouterProvider.otherwise('/page7')
 
   
